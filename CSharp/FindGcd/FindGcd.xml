@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FindGcd</name>
+    </assembly>
+    <members>
+        <member name="T:FindGcd.IntegerExtensions">
+            <summary>
+            Class IntegerExtensions.
+            </summary>
+        </member>
+        <member name="M:FindGcd.IntegerExtensions.TimeOfGetGcdByEuclidean(System.Int32,System.Int32)">
+            <summary>
+            Calculate time of Euclidean Algorithm(two numbers).
+            </summary>
+            <param name="a">first number.</param>
+            <param name="b">second number.</param>
+            <returns>Time of working.</returns>
+        </member>
+        <member name="M:FindGcd.IntegerExtensions.GetGcdByEuclidean(System.Int32,System.Int32)">
+            <summary>
+            Euclidean Algorithm(two numbers).
+            </summary>
+            <param name="a">first number.</param>
+            <param name="b">second number.</param>
+            <returns>Gcd of two numbers.</returns>
+        </member>
+        <member name="M:FindGcd.IntegerExtensions.TimeOfGetGcdByEuclidean(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Calculate time of Euclidean Algorithm(three numbers).
+            </summary>
+            <param name="a">first number.</param>
+            <param name="b">second number.</param>
+            <param name="c">third number.</param>
+            <returns>Time of working.</returns>
+        </member>
+        <member name="M:FindGcd.IntegerExtensions.GetGcdByEuclidean(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Euclidean Algorithm(of three numbers).
+            </summary>
+            <param name="a">first number.</param>
+            <param name="b">second number.</param>
+            <param name="c">third number.</param>
+            <returns>Gcd of three numbers.</returns>
+        </member>
+        <member name="M:FindGcd.IntegerExtensions.TimeOfGetGcdByEuclidian(System.Int32[])">
+            <summary>
+            Calculates time of Euclidian Algoritm(more than three numbers).
+            </summary>
+            <param name="numbers">Input numbers.</param>
+            <returns>Return time of work algoritm.</returns>
+        </member>
+        <member name="M:FindGcd.IntegerExtensions.GetGcdByEuclidean(System.Int32[])">
+            <summary>
+            Euclidean Algorithm(more than three numbers).
+            </summary>
+            <param name="arr">Input numbers.</param>
+            <returns>Gcd of numbers.</returns>
+        </member>
+        <member name="M:FindGcd.IntegerExtensions.TimeOfGetGcdByStein(System.Int32,System.Int32)">
+            <summary>
+            Calculate time of Stein Algorithm(two numbers).
+            </summary>
+            <param name="a">first number.</param>
+            <param name="b">second number.</param>
+            <returns>Time of working.</returns>
+        </member>
+        <member name="M:FindGcd.IntegerExtensions.GetGcdByStein(System.Int32,System.Int32)">
+            <summary>
+            SteinAlgorithm(two numbers).
+            </summary>
+            <param name="a">first number.</param>
+            <param name="b">second number.</param>
+            <returns>Gcd of two numbers.</returns>
+        </member>
+        <member name="M:FindGcd.IntegerExtensions.TimeOfGetGcdByStein(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Calculate time of Stein Algorithm(three numbers).
+            </summary>
+            <param name="a">first number.</param>
+            <param name="b">second number.</param>
+            <param name="c">third number.</param>
+            <returns>Time of working.</returns>
+        </member>
+        <member name="M:FindGcd.IntegerExtensions.GetGcdByStein(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Stein Algorithm(three numbers).
+            </summary>
+            <param name="a">first number.</param>
+            <param name="b">second number.</param>
+            <param name="c">third number.</param>
+            <returns>Gcd of three numbers.</returns>
+        </member>
+        <member name="M:FindGcd.IntegerExtensions.TimeOfGetGcdByStein(System.Int32[])">
+            <summary>
+            Calculate time of Stein Algorithm(more than three numbers).
+            </summary>
+            <param name="numbers">Input numbers.</param>
+            <returns>Time of working.</returns>
+        </member>
+        <member name="M:FindGcd.IntegerExtensions.GetGcdByStein(System.Int32[])">
+            <summary>
+            Stein Algorithm(more than three numbers).
+            </summary>
+            <param name="arr">Input numbers.</param>
+            <returns>Gcd of numbers.</returns>
+        </member>
+    </members>
+</doc>

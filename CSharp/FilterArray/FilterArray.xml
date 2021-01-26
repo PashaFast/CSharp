@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FilterArray</name>
+    </assembly>
+    <members>
+        <member name="T:FilterArray.ArrayExtension">
+            <summary>
+            Class ArrayExtension.
+            </summary>
+        </member>
+        <member name="M:FilterArray.ArrayExtension.FilterArrayByKey(System.Int32[],System.Int32)">
+            <summary>
+            A method that takes an array of integers
+            and filters it so that the output will be a new array consisting of only elements that contain a given digit.
+            </summary>
+            <param name="array">Input array.</param>
+            <param name="digit">The digit by which we will filter.</param>
+            <returns>A new array consisting only of elements that contain a given digit.</returns>
+            <exception cref="T:System.ArgumentException">Throw when array is empty.</exception>
+            <exception cref="T:System.ArgumentNullException">Throw when array is null.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">Throw when digit is negative.</exception>
+        </member>
+    </members>
+</doc>
